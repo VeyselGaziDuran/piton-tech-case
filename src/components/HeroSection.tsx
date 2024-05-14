@@ -15,7 +15,7 @@ const HeroSection = () => {
         />
       </div>
       <div className="absolute inset-0 flex justify-center items-center z-10">
-        <span className="font-manrope font-bold text-5xl md:text-7xl lg:text-8xl text-center">
+        <span className="font-bold text-5xl md:text-7xl lg:text-8xl text-center">
           Let’s create something <span className="block">great together.</span>
         </span>
       </div>
