@@ -23,6 +23,7 @@ const config: Config = {
       colors: {
         heroYellow: "#FDCA09",
         metricsYellow: "#FEC00A",
+        contactColor: "#FEF1E0",
       },
       fontSize: {
         "24": "1.5rem", // 24px
