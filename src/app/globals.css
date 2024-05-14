@@ -2,3 +2,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.slider-item {
+  transition: transform 0.3s ease-in-out;
+}
+
+.slider-item:hover {
+  transform: translateY(10%);
+}
+
+.animated-image {
+  animation: shrinkAndGrow 7s infinite alternate;
+}
+
+@keyframes shrinkAndGrow {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.7);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
