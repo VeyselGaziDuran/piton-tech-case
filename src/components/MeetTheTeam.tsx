@@ -2,8 +2,8 @@ import Image from "next/image";
 import React from "react";
 const MeetTheTeam = () => {
   return (
-    <div className="pt-16 lg:pt-48 ">
-      <h2 className="font-bold text-4xl flex text-center justify-center py-28">
+    <div className="pt-12 lg:pt-48 ">
+      <h2 className="font-bold text-4xl flex text-center justify-center py-14 md:py-28">
         Meet the heros behind the magic
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 justify-items-center">
