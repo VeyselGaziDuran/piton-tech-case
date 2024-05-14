@@ -14,6 +14,7 @@ const MeetTheTeam = () => {
             width={390}
             height={376}
             objectFit="cover"
+            className="hover:animate-pulse cursor-pointer transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
           />
           <h3 className="font-bold text-2xl text-start pt-11">Esther Howard</h3>
           <p className="pt-3 pb-8 opacity-50">Founder</p>
@@ -25,6 +26,7 @@ const MeetTheTeam = () => {
             width={390}
             height={376}
             objectFit="cover"
+            className="hover:animate-pulse cursor-pointer transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
           />
           <h3 className="font-bold text-2xl text-start pt-11">Cody Fisher</h3>
           <p className="pt-3 pb-8 opacity-50">Developer</p>
@@ -36,6 +38,7 @@ const MeetTheTeam = () => {
             width={390}
             height={376}
             objectFit="cover"
+            className="hover:animate-pulse cursor-pointer transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
           />
           <h3 className="font-bold text-2xl text-start pt-11">
             Brooklyn Simmons
