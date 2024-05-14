@@ -11,6 +11,7 @@ const ContactForm = () => {
             width={378}
             height={656}
             objectFit="contain"
+            className="cursor-pointer transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
           />
         </div>
         <div className="w-full">
@@ -73,7 +74,7 @@ const ContactForm = () => {
                   ></textarea>
                 </div>
                 <div>
-                  <button className="hover:shadow-form font-medium text-xl lg:text-2xl bg-black py-2 lg:py-8 px-6 lg:px-12 w-full text-white outline-none">
+                  <button className="hover:shadow-form font-medium text-xl lg:text-2xl hover:animate-pulse bg-black py-2 lg:py-8 px-6 lg:px-12 w-full text-white outline-none">
                     Submit
                   </button>
                 </div>
