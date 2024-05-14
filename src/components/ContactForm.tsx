@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 const ContactForm = () => {
   return (
-    <div className="mt-[720px] lg:mt-[0] md:mt-[240px] xl:mt-[0] pt-52  px-[100px] mb-48">
+    <div className="mt-[720px] lg:mt-[0] md:mt-[240px] xl:mt-[0] pt-52 px-3 md:px-[100px] mb-48">
       <div className="grid grid-cols-1 xl:grid-cols-2 gap-40 justify-items-center">
         <div className="bg-contactColor pt-24 xl:pt-40 pl-16 xl:pl-36 pb-10 kl:pb-20 pr-12 xl:pr-24  ">
           <Image
@@ -10,11 +10,11 @@ const ContactForm = () => {
             alt="#"
             width={378}
             height={656}
-            objectFit="cover"
+            objectFit="contain"
           />
         </div>
         <div className="w-full">
-          <h2 className="font-bold text-44 pb-12 text-end ">
+          <h2 className="font-bold text-4xl pb-8 lg:pb-12 text-center md:text-end ">
             We&apos;d love to hear <br /> from you
           </h2>
           <div className="flex items-center justify-center">
@@ -30,7 +30,7 @@ const ContactForm = () => {
                     name="name"
                     id="name"
                     placeholder="Name*"
-                    className="placeholder-current border-2 w-full border-black bg-white py-8 px-12 text-2xl font-medium text-black outline-none focus:border-heroYellow focus:shadow-md"
+                    className="placeholder-current border-2 w-full border-black bg-white py-2 lg:py-8 px-6 lg:px-12 text-lg lg:text-2xl font-medium text-black outline-none focus:border-heroYellow focus:shadow-md"
                   />
                 </div>
                 <div className="mb-5">
@@ -43,7 +43,7 @@ const ContactForm = () => {
                     name="email"
                     id="email"
                     placeholder="Email*"
-                    className="placeholder-current border-2 w-full border-black bg-white py-8 px-12 text-2xl font-medium text-black outline-none focus:border-heroYellow focus:shadow-md"
+                    className="placeholder-current border-2 w-full border-black bg-white py-2 lg:py-8 px-6 lg:px-12 text-lg lg:text-2xl font-medium text-black outline-none focus:border-heroYellow focus:shadow-md"
                   />
                 </div>
                 <div className="mb-5">
@@ -56,7 +56,7 @@ const ContactForm = () => {
                     name="url"
                     id="url"
                     placeholder="Website URL*"
-                    className="w-full placeholder-current border-2 border-black bg-white py-8 px-12 text-2xl font-medium text-black outline-none focus:border-heroYellow focus:shadow-md"
+                    className="w-full placeholder-current border-2 border-black bg-white py-2 lg:py-8 px-6 lg:px-12 text-lg lg:text-2xl font-medium text-black outline-none focus:border-heroYellow focus:shadow-md"
                   />
                 </div>
                 <div className="mb-5">
@@ -69,11 +69,11 @@ const ContactForm = () => {
                     name="message"
                     id="message"
                     placeholder="Project Details*"
-                    className="w-full resize-none placeholder-current border-2 border-black bg-white py-8 px-12 text-2xl font-medium text-black outline-none focus:border-heroYellow focus:shadow-md"
+                    className="w-full resize-none placeholder-current border-2 border-black bg-white py-2 lg:py-8 px-6 lg:px-12 text-lg lg:text-2xl font-medium text-black outline-none focus:border-heroYellow focus:shadow-md"
                   ></textarea>
                 </div>
                 <div>
-                  <button className="hover:shadow-form bg-black py-8 w-full text-base text-white outline-none">
+                  <button className="hover:shadow-form font-medium text-xl lg:text-2xl bg-black py-2 lg:py-8 px-6 lg:px-12 w-full text-white outline-none">
                     Submit
                   </button>
                 </div>
