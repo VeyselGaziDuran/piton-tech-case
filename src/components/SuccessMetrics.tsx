@@ -4,7 +4,7 @@ const SuccessMetrics = () => {
       <div className="w-full h-60 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-items-center">
         <div className="bg-black w-full h-60 flex justify-center items-center flex-col">
           <div className="flex flex-col">
-            <span className="text-metricsYellow font-bold text-6xl animate-pulse hover:animate-ping cursor-pointer">
+            <span className="text-metricsYellow font-bold text-6xl animate-pulse cursor-pointer">
               350 +
             </span>
             <span className="text-white font-medium text-xl pt-3">
@@ -14,7 +14,7 @@ const SuccessMetrics = () => {
         </div>
         <div className="bg-black w-full h-60 flex justify-center items-center flex-col">
           <div className="flex flex-col">
-            <span className="text-metricsYellow font-bold text-6xl animate-pulse hover:animate-ping cursor-pointer">
+            <span className="text-metricsYellow font-bold text-6xl animate-pulse cursor-pointer">
               20 +
             </span>
             <span className="text-white font-medium text-xl pt-3">
@@ -24,7 +24,7 @@ const SuccessMetrics = () => {
         </div>
         <div className="bg-black w-full h-60 flex justify-center items-center flex-col">
           <div className="flex flex-col">
-            <span className="text-metricsYellow font-bold text-6xl animate-pulse hover:animate-ping cursor-pointer">
+            <span className="text-metricsYellow font-bold text-6xl animate-pulse cursor-pointer">
               100 +
             </span>
             <span className="text-white font-medium text-xl pt-3">
@@ -34,7 +34,7 @@ const SuccessMetrics = () => {
         </div>
         <div className="bg-black w-full h-60 flex justify-center items-center flex-col">
           <div className="flex flex-col">
-            <span className="text-metricsYellow font-bold text-6xl animate-pulse hover:animate-ping cursor-pointer ">
+            <span className="text-metricsYellow font-bold text-6xl animate-pulse cursor-pointer ">
               85M +
             </span>
             <span className="text-white font-medium text-xl pt-3">
